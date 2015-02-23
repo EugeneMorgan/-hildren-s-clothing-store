@@ -1,0 +1,710 @@
+body {
+	background: url(../images/background.gif);
+}
+
+.main {
+	margin: 0 auto;
+	background: rgba(255, 255, 255, 0.7);
+	width: 960px;
+	padding-top: 40px;
+}
+/* начало блока "лого" */
+.logo {
+	float: left;
+	width: 300px;
+	height: 160px;
+	background-color: #a7a7a7;
+	font-size: 50px;
+	text-align: center;
+	margin-left: 40px;
+	margin-bottom: 11px;
+}
+/* конец блока "лого" */
+
+/* начало блока "контакты" */
+
+.contacts {
+	float: left;
+	margin-left: 40px;
+	font: 20.53px "Times New Roman";
+	line-height: 1.019;
+}
+
+.contacts span {
+	display: block;
+}
+
+.contacts hr {
+    border: none; /* Убираем границу */
+    background-color: #f07878; /* Цвет линии */
+    color: #f07878; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+	margin: 2px 0px;
+	box-shadow: 0 1px 2px #858383;
+	-webkit-box-shadow: 0 1px 2px #858383;
+	-moz-box-shadow: 0 1px 2px #858383;
+}
+
+.contacts .phone {
+	margin-left: -1px;
+	word-spacing: 2px;
+	font-size: 29.17px;
+	display: inline-block;
+}
+
+.contacts img {
+	margin-right: -1px;
+	cursor: pointer;
+}
+
+.contacts .callback {
+	display: block;
+	text-decoration: none;
+	margin: 3px 0px;
+	padding: 1px 0px 3px;
+	text-align: center;
+	color: white;
+	font-size: 16.53px;
+	background-color: rgb( 240, 121, 121 );
+    -webkit-box-shadow: inset 0 0 4px white, 0 1px 1px #858383;
+    -moz-box-shadow: inset 0 0 4px white, 0 1px 1px #858383;
+    box-shadow: inset 0 0 4px white, 0 1px 1px #858383;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+	cursor: pointer;
+}
+
+.contacts .callback:hover {
+	background-color: red;
+}
+
+.contacts .timeWork {
+	font: 12.5px "Arial";
+	text-align: center;
+}
+
+/* конец блока "контакты" */
+
+/* начало блока с корзиной и регистрацией*/
+
+.redBox {
+	float: left;
+	margin-left: 40px;
+	background: url(../images/basket.png) no-repeat #f07979;
+	background-position: 5% 15%;
+	width: 300px;
+	text-align: center;
+	padding-top: 38px;
+	padding-bottom: 10px;
+	box-shadow: 0 2px 5px #858383;
+	-webkit-box-shadow: 0 2px 5px #858383;
+	-moz-box-shadow: 0 2px 5px #858383;
+}
+
+.redBox a:hover {
+	font: 21.83px Arial;
+}
+
+.redBox a {
+	color: white;
+	text-decoration: none;
+	font: 20.83px Arial;
+	display: inline-block;
+	padding:0px;
+	margin-bottom: -3px;
+}
+
+.redBox .basket {
+	margin-left: 53px;
+	margin-bottom: 6px;
+}
+
+.redBox hr {
+    border: none; /* Убираем границу */
+    background-color: white; /* Цвет линии */
+    color: white; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+	margin: 4px 0 2px;
+	box-shadow: 0 1px 2px #858383;
+	-webkit-box-shadow: 0 1px 2px #858383;
+	-moz-box-shadow: 0 1px 2px #858383;
+}
+
+/* конец блока с корзиной и регистрацией*/
+
+.social {
+	clear: both;
+	margin-left: 70px;
+}
+
+.social li {
+	float: left;
+	margin-right: 3px;
+}
+
+.social a {
+	display: block;
+	width: 58px;
+	height: 58px;
+	opacity: 0.6;
+}
+
+.social a:hover {
+	opacity: 1;
+}
+
+.social .vk {
+	background: url("../images/vk.png") no-repeat;
+}
+
+.social .facebook {
+	background: url("../images/facebook.png") no-repeat;
+}
+
+.social .mail {
+	background: url("../images/mail.png") no-repeat;
+	width: 57px;
+	height: 57px;
+}
+
+.social .skype {
+	background: url("../images/skype.png") no-repeat;
+}
+
+.search {
+	float: right;
+	border:2px solid #f07979;
+	height:31px;
+	width:526px;
+	position:relative;
+	background-color:white;
+	padding:0 5px;
+	margin-right:39px;
+	margin-bottom:9px;
+	box-shadow: 0 2px 5px #858383;
+	-webkit-box-shadow: 0 2px 5px #858383;
+	-moz-box-shadow: 0 2px 5px #858383;
+}
+.search input[type="text"] {
+	border:none;
+	background:none;
+	padding:0;
+	height:31px;
+	width:499px;
+	position:absolute;
+	top:0;
+	outline:none;
+}
+
+.search:hover {
+	border:2px solid red !important;
+}
+
+.search input[type="button"] {
+	width:31px;
+	height:29px;
+	background: url("../images/search.png");
+	position:absolute;
+	right:0;
+	margin:1px;
+	outline:none;
+	box-shadow: -3px 1px 2px #858383;
+	-webkit-box-shadow:-3px 1px 2px #858383;
+	-moz-box-shadow: -3px 1px 2px #858383;
+}
+
+.nav {
+	margin-bottom: 11px;
+	float: right;
+	margin-right:39px;
+}
+
+.nav li {
+	float: left;
+}
+
+.nav a {
+	color: #f07979;
+	text-decoration: none;
+	font: 20.83px Arial;
+	margin-left: 47px;
+}
+
+.nav a:hover {
+	color: red;
+}
+
+.menu {
+	clear: both;
+	overflow: hidden;
+	font: 31.25px Arial;
+	box-shadow: 
+	6px 6px 20px 0px #8d8887, 
+	-6px 6px 20px 0px #8d8887;
+	margin-bottom: 30px;
+}
+
+.menu li {
+	float: right;
+}
+
+.menu .first {
+	background-image: none;
+}
+
+.menu li a {
+	margin-right: -3px; 
+	background: url(../images/shape.png) bottom right no-repeat #373737;
+	text-align: center;
+	width: 243px;
+	height: 47px;
+	padding-top: 12px;
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+
+.menu li a:hover {
+	background-color: white;
+	color: #373737;
+}
+
+.bigGreyBlock {
+	width: 930px;
+	height: 500px;
+	background-color: #a7a7a7;
+	margin: 0 auto;
+	position: relative;
+	box-shadow: 0 2px 5px #000000;
+	-webkit-box-shadow: 0 2px 5px #000000;
+	-moz-box-shadow: 0 2px 5px #000000;
+	margin-bottom: 20px;
+}
+
+.leftArrow {
+	margin-top: 223px;
+	margin-left: 25px;
+	cursor: pointer;
+	width: 40px;
+	height: 48px;
+	background: url("../images/leftArrow.png");
+	float: left;
+}
+
+.rightArrow {
+	margin-top: 223px;
+	margin-right: 25px;
+	cursor: pointer;
+	width: 40px;
+	height: 48px;
+	background: url("../images/rightArrow.png");
+	float: right;
+}
+
+.bigGreyBlock > .circles {
+	clear: both;
+	position: absolute;
+	bottom: 12px;
+	left: 382px;
+}
+
+.bigGreyBlock > .circles li {
+	cursor: pointer;
+	margin-right: 10px;
+	float: left;
+	display: block;
+	width: 34px;
+	height: 36px;
+	background: url("../images/circle.png");
+}
+
+.bigGreyBlock > .circles .fullCircle {
+	background: url("../images/fullCircle.png");
+}
+
+.strip {
+	padding-left: 52px;
+	background-color: white;
+	clear: both;
+	color: #373737;
+	font: 33.33px Arial;
+	box-shadow: 0px 2px 0px #b2acab, 0 -1px 1px -1px #b2acab;
+	margin-bottom: 23px;
+}
+
+.middleGreyBlock {
+	width: 420px;
+	height: 280px;
+	display: inline-block;
+	margin-left: 40px;
+	margin-bottom: 38px;
+	background-color: #a7a7a7;
+	position: relative;
+}
+
+.middleGreyBlock > .circles {
+	clear: both;
+	position: absolute;
+	bottom: 12px;
+	left: 160px;
+}
+
+.middleGreyBlock > .circles li {
+	cursor: pointer;
+	margin-right: 5px;
+	float: left;
+	display: block;
+	width: 22px;
+	height: 24px;
+	background: url("../images/smallCircle.png");
+}
+
+.middleGreyBlock > .circles .fullCircle {
+	background: url("../images/smallFullCircle.png");
+}
+
+.description {
+	width: 880px;
+	margin: 0 auto;
+	word-wrap: break-word;
+	font: 20.83px Arial;
+}
+
+.description h2 {
+	margin-top: 90px;
+	font: 41.67px Arial;
+	margin-bottom: 33px;
+}
+
+.footer {
+	margin-top: 50px;
+	background-color: #373737;
+	height: 213px;
+}
+
+.copyright {
+	background-color: #c6c6c6;
+	height: 32px;
+}
+
+.bigSlider {
+	width: 930px;
+	height: 500px;
+	background-color: #a7a7a7;
+	margin: 0 auto;
+	position: relative;
+	box-shadow: 0 2px 5px #000000;
+	-webkit-box-shadow: 0 2px 5px #000000;
+	-moz-box-shadow: 0 2px 5px #000000;
+	margin-bottom: 20px;
+}
+
+.carousel {
+	margin: 0 auto;
+}
+
+.ui-carousel-next, .ui-carousel-prev {
+	width: 40px;
+	height: 48px;
+	background: url(../images/leftArrow.png) center center no-repeat;
+	display: block;
+	position: absolute;
+	top: 0;
+	z-index: 100;
+}
+
+.ui-carousel-next {
+	top: 223px;
+	right: 25px;
+	background-image: url(../images/rightArrow.png);
+}
+
+.ui-carousel-prev {
+	top: 223px;
+	left: 25px;
+}
+
+.ui-carousel-next > span, .ui-carousel-prev > span {
+	display: none;
+}
+
+.pages {
+	margin: 0 auto;
+	position: absolute;
+	bottom: 12px;
+	left: 382px;
+}
+
+.bullet {
+	background: url(../images/circle.png) center center no-repeat;
+	display: block;
+	width: 34px;
+	height: 36px;
+	margin: 0;
+	margin-right: 5px;
+	float: left;				
+}
+
+.middleSlider-1 {
+	background-color: red;
+	float: left;
+	margin-left: 40px;
+	margin-bottom: 38px;
+	position: relative;
+}
+
+.pages-1 {
+	position: absolute;
+	bottom: 12px;
+	left: 160px;
+}
+
+.bullet-1 {
+	background: url(../images/smallCircle.png) center center no-repeat;
+	display: block;
+	width: 22px;
+	height: 24px;
+	margin: 0;
+	margin-right: 5px;
+	float: left;				
+}
+
+.middleSlider-2 {
+	background-color: red;
+	float: left;
+	margin-left: 40px;
+	margin-bottom: 38px;
+	position: relative;
+}
+
+.pages-2 {
+	position: absolute;
+	bottom: 12px;
+	left: 160px;
+}
+
+.bullet-2 {
+	background: url(../images/smallCircle.png) center center no-repeat;
+	display: block;
+	width: 22px;
+	height: 24px;
+	margin: 0;
+	margin-right: 5px;
+	float: left;				
+}
+
+div.popularGoods {
+	margin: 0 auto;
+}
+
+div.popularGoods div.good {
+	text-align: center;
+	font: 20.83px Arial;
+	border: 2px solid black;
+	color: #373737;
+	float: left;
+}
+
+div.newGoods {
+	margin: 0 auto;
+}
+
+div.newGoods div.good {
+	text-align: center;
+	font: 20.83px Arial;
+	border: 2px solid black;
+	color: #373737;
+	float: left;
+}
+
+div.good {
+	color: #373737 !important;
+}
+
+.good:hover {
+	border: 2px solid red !important;
+	color: red !important;
+}
+
+.good:hover a.more {
+	color: red !important;
+}
+
+.more {
+	margin-top: -4px;
+	float: right;
+	font: 16.67px Arial;
+	margin-right: 6px;
+	text-decoration: none;
+	color: #373737;
+}
+
+.good hr {
+    border: none; /* Убираем границу */
+    background-color: #f07979; /* Цвет линии */
+    color: #f07979; /* Цвет линии для IE6-7 */
+    height: 3px; /* Толщина линии */
+	box-shadow: 2px 5px #272425;
+	-webkit-box-shadow: 0 2px 5px #272425;
+	-moz-box-shadow: 0 2px 5px #272425;
+	margin-top: 7px;
+	padding: 0px;
+	margin-bottom: 5px;
+	clear: both;
+}
+
+div.good:hover img {
+	width: 192px;
+	height: 202px;
+}
+
+.name {
+	display: block;
+	margin-top: 8px;
+}
+
+span.art {
+	margin-top: -4px;
+	float: left;
+	font: 16.67px Arial;
+	margin-left: 12px;
+}
+
+a.buy {
+	float: left;
+	text-decoration: none;
+	width: 100px;
+	margin-left: 12px;
+	text-align: center;
+	color: white;
+	font-size: 20.83px;
+	background-color: rgb( 240, 121, 121 );
+    -webkit-box-shadow: inset 0 0 4px white, 0 1px 1px #858383;
+    -moz-box-shadow: inset 0 0 4px white, 0 1px 1px #858383;
+    box-shadow: inset 0 0 4px white, 0 1px 1px #858383;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+	margin-top:3px;
+	padding: 1px 0px 2px;
+}
+
+a.buy:hover {
+	background-color: red;
+}
+
+span.price {
+	float: right;
+	margin-top: 4px;
+	margin-right: 3px;
+}
+
+.goods {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+div.good img {
+	z-index: 1;
+}
+
+.goods:before{
+	display:block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	box-shadow: 0px -70px 160px 90px #fff;
+	content:'';
+	height:100%;
+	background: blue;
+	z-index: 2;
+}
+
+.goods:after{
+	display:block;
+	position: absolute;
+	top: 0px;
+	right:0px;
+	height:100%;
+	box-shadow: 0px -70px 160px 90px #fff;
+	content:'';
+	z-index: 2;
+}
+
+.next, .prev {
+	width: 40px;
+	height: 48px;
+	background: url(../images/leftArrow.png) center center no-repeat;
+	display: block;
+	position: absolute;
+	top: 137px;
+	z-index: 100;
+}
+
+.next {
+	right: 14px;
+	background-image: url(../images/rightArrow.png);
+}
+
+.prev {
+	left: 16px;
+}
+
+.next > span, .prev > span {
+	display: none;
+}
+
+
+.next-1, .prev-1 {
+	width: 40px;
+	height: 48px;
+	background: url(../images/leftArrow.png) center center no-repeat;
+	display: block;
+	position: absolute;
+	top: 137px;
+	z-index: 100;
+}
+
+.next-1 {
+	right: 14px;
+	background-image: url(../images/rightArrow.png);
+}
+
+.prev-1 {
+	left: 16px;
+}
+
+.next-1 > span, .prev-1 > span {
+	display: none;
+}
+
+.parent {
+  background: black;
+  height: 100%;
+  opacity: 0.8;
+  position: fixed;
+  width: 100%;
+  z-index: 101;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.popup {
+  background-color: white;
+  height: 100px;
+  position: fixed;
+  top: 20%;
+  left: 40%;
+  width: 400px;
+}
+
+.popup p {
+	float: right;
+	color: red;
+	cursor: pointer;
+}
+
+.popup input {
+	margin-top: 20px;
+}
